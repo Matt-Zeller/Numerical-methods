@@ -1,0 +1,67 @@
+import numpy as np
+from numpy import linalg as nLA
+from scipy import linalg as sLA
+import matplotlib.pyplot as p
+
+
+
+def powerForEig(A,v0):
+    #Takes 3x3 matrix A, initial geuss vector v0,
+    #does power method to approximate 
+    #eigenvectors/values with convergence tolerance
+    #of 1e-5
+    k=0
+    value1=0
+    changeval = 1.
+    changevec = 1.
+    while abs(changeval)>1e-5 and abs(changevec)>1e-5:
+    #loop until differnece between approx's is less than
+    #1e-5
+        k=k+1
+        
+        w = np.dot(A,v0)
+        
+        v1 = w/nLA.norm(w, 2)
+        
+        print('k= ',k,'____________________________________')
+        print('Eigenvector at kth iteration:')
+        print(v1)
+        
+        value2 = np.dot(v1.T,(np.dot(A,v1)))
+        print('Eigenvalue at kth iteration:')
+        print(value2)
+        
+        #difference between eigenvalues between iterations
+        changeval = value2-value1
+        changevec = v1[0,0]-v0[0,0]
+        val=np.zeros((10,1))
+        vec=np.zeros((10,1))
+        val[k-1,0]=changeval
+        vec[k-1,0]=changevec
+        print('Change in eigenvalue and leading entry of eigenvector, respectively:')
+        print(changeval)
+        print(changevec)
+        #set v0 to v(k-1)
+        v0=v1
+        value1=value2
+    
+    print(val)
+    p.plot(val)
+    p.title('Change in eigenvalue between iterations')
+    p.xlabel('iteration')
+    p.ylabel('eigenvalue')
+    p.show()
+    print(vec)
+    p.plot(vec)
+    p.title('Change in eigenvector between iterations')
+    p.xlabel('iteration')
+    p.ylabel('eigenvector')
+    p.show()
+        
+A = np.array([[1.,4.,5.],
+              [4.,3.,0.],
+              [5.,0.,7.]])
+
+v0=(1/np.sqrt(3))*np.ones((3,1))
+
+powerForEig(A,v0)

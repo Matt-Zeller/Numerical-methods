@@ -1,0 +1,24 @@
+a =
+
+   1.2969e+00   8.6480e-01
+   2.1610e-01   1.4410e-01
+
+norm(a,inf)
+
+ans =
+
+   2.1617e+00
+
+norm(inv(a),inf)
+
+ans =
+
+   1.5130e+08
+
+cond(a,inf)
+
+ans =
+
+   3.2707e+08
+
+diary off

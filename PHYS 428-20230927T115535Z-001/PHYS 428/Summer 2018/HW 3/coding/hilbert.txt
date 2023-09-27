@@ -1,0 +1,1424 @@
+n=5
+
+n =
+
+     5
+
+[a,P]=mylu(hilb(n))
+
+a =
+
+   1.0000e+00   5.0000e-01   3.3333e-01   2.5000e-01   2.0000e-01
+   5.0000e-01   3.3333e-01   2.5000e-01   2.0000e-01   1.6667e-01
+   3.3333e-01   2.5000e-01   2.0000e-01   1.6667e-01   1.4286e-01
+   2.5000e-01   2.0000e-01   1.6667e-01   1.4286e-01   1.2500e-01
+   2.0000e-01   1.6667e-01   1.4286e-01   1.2500e-01   1.1111e-01
+
+
+P =
+
+     1     0     0     0     0
+     0     1     0     0     0
+     0     0     1     0     0
+     0     0     0     1     0
+     0     0     0     0     1
+
+x=ones(n,1)
+
+x =
+
+     1
+     1
+     1
+     1
+     1
+
+b=sum(hilb(n)')'
+
+b =
+
+   2.2833e+00
+   1.4500e+00
+   1.0929e+00
+   8.8452e-01
+   7.4563e-01
+
+x=luSolve(a,P,b)
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+for i:5
+ for i:5
+      
+{Error: Unexpected MATLAB operator.
+} 
+for i=1:5
+for i=1:5
+
+for i=1:5
+x=luSolve(a,P,b)
+end
+
+end
+
+endend
+end
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+{Undefined function or variable 'endend'.
+} 
+x
+
+x =
+
+   7.6509e+02
+  -1.3947e+04
+   5.9309e+04
+  -8.8738e+04
+   4.3126e+04
+
+for i=1:5
+e=(abs(x(i)-x(i-1)))/x(i)
+e=(norm((x(i)-x(i-1)),inf)/norm(x(i),inf)
+ e=(norm((x(i)-x(i-1)),inf)/norm(x(i),inf)
+                                          
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+e=(norm((x(i)-x(i-1)),inf)/norm(x(i),inf)
+ e=(norm((x(i)-x(i-1)),inf)/norm(x(i),inf)
+                                          
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+e=(norm((x(i)-x(i-1)),inf)/norm(x(i),inf))
+
+e =
+
+   3.0576e+00
+
+hilbTest
+{Error: <a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',8,5)">File: hilbTest.m Line: 8 Column: 5
+</a>At least one END is missing: the statement may begin here.
+} 
+hilbTest
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 10)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',10,0)">line 10</a>)
+        e(i)=x(i)-x(i-1);
+} 
+hilbTest
+
+e =
+
+     0
+     0
+     0
+     0
+     0
+
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 11)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',11,0)">line 11</a>)
+        e(i)=x(i)-x(i-1);
+} 
+hilbTest(a, p, b)
+{Attempt to execute SCRIPT hilbTest as a function:
+C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW
+3\coding\hilbTest.m
+} 
+hilbTest
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 11)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',11,0)">line 11</a>)
+        e(i)=x(i)-x(i-1);
+} 
+hilbTest
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 11)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',11,0)">line 11</a>)
+        e(i)=x(i)-x(i-1);
+} 
+hilbTest
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+
+n =
+
+    10
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+
+n =
+
+    15
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+
+n =
+
+    20
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('display')" style="font-weight:bold">display</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line 21</a>)
+display(r,relE,relR)
+} 
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('display')" style="font-weight:bold">display</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line 21</a>)
+display(r,relE,relR)
+} 
+hilbTest
+{Error: <a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,33)">File: hilbTest.m
+Line: 21 Column: 33
+</a>Expression or statement is
+incorrect--possibly
+unbalanced (, {, or [.
+} 
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+{Error using
+checkArgsForHandleToPrint
+Handle input must be scalar,
+vector, or cell array of
+vectors.
+
+Error in
+checkArgsForHandleToPrint
+
+Error in
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('print>LocalCreatePrintJob', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\graphics\print.m', 97)" style="font-weight:bold">print>LocalCreatePrintJob</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\graphics\print.m',97,0)">line 97</a>)
+handles =
+checkArgsForHandleToPrint(0,
+varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\graphics\print.m', 38)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\graphics\print.m',38,0)">line 38</a>)
+[pj, inputargs] =
+LocalCreatePrintJob(varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line 21</a>)
+print(r)
+} 
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+   7.1644e-01
+   1.9966e+00
+   2.4607e+00
+   2.7787e+00
+   1.3437e+00
+   2.8182e+00
+   2.4957e+00
+   7.9401e-01
+  -2.1475e-01
+   5.6481e-01
+  -1.2038e+00
+   1.6142e+00
+  -1.4197e+00
+   1.1719e+00
+   2.3155e-01
+   6.5647e-01
+  -2.2721e+00
+   5.7957e-01
+   1.5058e+00
+   6.6776e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+{Undefined
+function
+or
+variable
+'eR'.
+
+Error
+in
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a>
+(<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line
+21</a>)
+disp(['r
+=
+',num2str(r,'%1.8e'),
+',
+Relative
+Error
+=
+',num2str(eR,'%1.8e')])} 
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of matrices being concatenated are not
+consistent.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line 21</a>)
+disp(['r = ',num2str(r,'%1.8e'), ', Relative Error
+= ',num2str(relE,'%1.8e')])
+} 
+hilbTest
+
+n =
+
+     5
+
+r = -1.81277215e-12, Relative Error = 1.66836539e+00
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 20)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',20,0)">line 20</a>)
+        disp(['r = ',num2str(r(i),'%1.8e'), ',
+        Relative Error =
+        ',num2str(relE(i),'%1.8e')])
+} 
+hilbTest
+
+n =
+
+     5
+
+r = -1.81277215e-12, Relative Error = 1.66836539e+00
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 20)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',20,0)">line 20</a>)
+        disp(['r = ',num2str(r(i),'%1.8e'), ',
+        Relative Error =
+        ',num2str(relE(i),'%1.8e')])
+} 
+hilbTest
+
+n =
+
+     5
+
+r = -1.81277215e-12, Relative Error = 1.66836539e+00
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 20)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',20,0)">line 20</a>)
+        disp(['r = ',num2str(r(i),'%1.8e'), ',
+        Relative Error =
+        ',num2str(relE(i),'%1.8e')])
+} 
+hilbTest
+
+n =
+
+     5
+
+
+n =
+
+    10
+
+
+n =
+
+    15
+
+
+n =
+
+    20
+
+hilbTest
+
+n =
+
+     5
+
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+
+n =
+
+    10
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+
+n =
+
+    15
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+
+n =
+
+    20
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+r =
+
+  -1.8128e-12
+   3.5714e-01
+  -3.5714e-01
+   1.3889e-01
+  -1.3889e-01
+
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+
+n =
+
+    10
+
+
+r =
+
+  -3.1659e-06
+   6.7310e-01
+  -4.1665e-01
+   4.1611e-01
+  -6.0120e-06
+   1.8823e-01
+   2.1197e-01
+  -7.5649e-01
+   1.2479e-05
+  -3.1617e-01
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+
+n =
+
+    15
+
+
+r =
+
+  -1.5278e+00
+  -9.1615e-01
+  -9.9627e-01
+   2.6881e-01
+  -3.8631e-02
+  -5.2255e-01
+  -4.6736e-01
+  -1.3862e+00
+  -7.9970e-01
+   2.6946e-01
+  -8.9222e-01
+   8.3757e-02
+  -1.4060e+00
+  -6.7969e-01
+  -2.0664e+00
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+
+n =
+
+    20
+
+
+r =
+
+   7.1644e-01
+   1.9966e+00
+   2.4607e+00
+   2.7787e+00
+   1.3437e+00
+   2.8182e+00
+   2.4957e+00
+   7.9401e-01
+  -2.1475e-01
+   5.6481e-01
+  -1.2038e+00
+   1.6142e+00
+  -1.4197e+00
+   1.1719e+00
+   2.3155e-01
+   6.5647e-01
+  -2.2721e+00
+   5.7957e-01
+   1.5058e+00
+   6.6776e-01
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+
+n =
+
+    10
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+
+n =
+
+    15
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+
+n =
+
+    20
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+hilbTest
+
+n =
+
+     5
+
+
+relE =
+
+   1.6684e+00
+
+
+relR =
+
+   1.5641e-01
+
+Relative Error1.66836539e+00, Relative Residual = 1.56412930e-01
+
+n =
+
+    10
+
+
+relE =
+
+   1.9727e+00
+
+
+relR =
+
+   2.5828e-01
+
+Relative Error1.97265297e+00, Relative Residual = 2.58280080e-01
+
+n =
+
+    15
+
+
+relE =
+
+   1.9044e+00
+
+
+relR =
+
+   6.2274e-01
+
+Relative Error1.90436373e+00, Relative Residual = 6.22742682e-01
+
+n =
+
+    20
+
+
+relE =
+
+   1.8522e+00
+
+
+relR =
+
+   7.8333e-01
+
+Relative Error1.85216891e+00, Relative Residual = 7.83334490e-01
+hilbTest
+
+n =
+
+     5
+
+Relative Error  =  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+
+n =
+
+    10
+
+Relative Error  =  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+
+n =
+
+    15
+
+Relative Error  =  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+
+n =
+
+    20
+
+Relative Error  =  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+Relative Error  =  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+Relative Error  =  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+Relative Error  =  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+Relative Error  =  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+Relative Error5e+00=  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+Relative Error1e+01=  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+Relative Error2e+01=  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+Relative Error2e+01=  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+Relative Error5e+00=  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+Relative Error1e+01=  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+Relative Error2e+01=  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+Relative Error2e+01=  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+Relative Error5=  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+Relative Error10=  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+Relative Error15=  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+Relative Error20=  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+5       Relative Error  =  1.66836539e+00,      Relative Residual  =  1.56412930e-01
+10       Relative Error  =  1.97265297e+00,      Relative Residual  =  2.58280080e-01
+15       Relative Error  =  1.90436373e+00,      Relative Residual  =  6.22742682e-01
+20       Relative Error  =  1.85216891e+00,      Relative Residual  =  7.83334490e-01
+hilbTest
+n      Relative Error                  Relative residual
+51.66836539e+001.56412930e-01
+101.97265297e+002.58280080e-01
+151.90436373e+006.22742682e-01
+201.85216891e+007.83334490e-01
+hilbTest
+{Error: <a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',20,64)">File: hilbTest.m Line: 20 Column: 64
+</a>Unexpected MATLAB expression.
+} 
+hilbTest
+n     Relative Error          Relative residual
+5          1.66836539e+00     1.56412930e-01
+10          1.97265297e+00     2.58280080e-01
+15          1.90436373e+00     6.22742682e-01
+20          1.85216891e+00     7.83334490e-01
+hilbTest
+n        Relative Error          Relative residual
+5          1.66836539e+00     1.56412930e-01
+10          1.97265297e+00     2.58280080e-01
+15          1.90436373e+00     6.22742682e-01
+20          1.85216891e+00     7.83334490e-01
+hilbTest
+n          Relative Error          Relative residual
+5          1.66836539e+00     1.56412930e-01
+10          1.97265297e+00     2.58280080e-01
+15          1.90436373e+00     6.22742682e-01
+20          1.85216891e+00     7.83334490e-01
+hilbTest
+n          Relative Error          Relative residual
+ 
+5          1.66836539e+00     1.56412930e-01
+10          1.97265297e+00     2.58280080e-01
+15          1.90436373e+00     6.22742682e-01
+20          1.85216891e+00     7.83334490e-01
+hilbTest
+n          Relative Error          Relative residual
+ 
+5          1.6684e+00     1.5641e-01
+10          1.9727e+00     2.5828e-01
+15          1.9044e+00     6.2274e-01
+20          1.8522e+00     7.8333e-01
+hilbTest
+n             Relative Error             Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+hilbTest
+n             Relative Error        Relative residual
+ 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of matrices being concatenated are not
+consistent.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hilbTest', 'C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m', 21)" style="font-weight:bold">hilbTest</a> (<a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',21,0)">line 21</a>)
+    disp([num2str(n),'
+    ',num2str(r,'%1.4e'),'
+    ',num2str(relR,'%1.4e')])
+} 
+hilbTest
+{Error: <a href="matlab: opentoline('C:\Users\Matt\Documents\Google Drive\PHYS 428\Summer 2018\HW 3\coding\hilbTest.m',20,20)">File: hilbTest.m Line: 20 Column: 20
+</a>Expression or statement is incorrect--possibly
+unbalanced (, {, or [.
+} 
+hilbTest
+n             Relative Error        Relative residual
+ 
+-1.8128e-12
+    0.35714
+   -0.35714
+    0.13889
+   -0.13889
+5             1.6684e+00        1.5641e-01
+-3.1659e-06
+     0.6731
+   -0.41665
+    0.41611
+ -6.012e-06
+    0.18823
+    0.21197
+   -0.75649
+ 1.2479e-05
+   -0.31617
+10             1.9727e+00        2.5828e-01
+  -1.5278
+ -0.91615
+ -0.99627
+  0.26881
+-0.038631
+ -0.52255
+ -0.46736
+  -1.3862
+  -0.7997
+  0.26946
+ -0.89222
+ 0.083757
+   -1.406
+ -0.67969
+  -2.0664
+15             1.9044e+00        6.2274e-01
+ 0.71644
+  1.9966
+  2.4607
+  2.7787
+  1.3437
+  2.8182
+  2.4957
+ 0.79401
+-0.21475
+ 0.56481
+ -1.2038
+  1.6142
+ -1.4197
+  1.1719
+ 0.23155
+ 0.65647
+ -2.2721
+ 0.57957
+  1.5058
+ 0.66776
+20             1.8522e+00        7.8333e-01
+plot r
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Invalid first data argument.
+} 
+plot(r)
+plot(rE)
+{Undefined function or variable 'rE'.
+} 
+plot(e)
+plot(r)
+hilbTest
+n             Relative Error        Relative residual
+ 
+-1.8128e-12
+    0.35714
+   -0.35714
+    0.13889
+   -0.13889
+5             1.6684e+00        1.5641e-01
+-3.1659e-06
+     0.6731
+   -0.41665
+    0.41611
+ -6.012e-06
+    0.18823
+    0.21197
+   -0.75649
+ 1.2479e-05
+   -0.31617
+10             1.9727e+00        2.5828e-01
+  -1.5278
+ -0.91615
+ -0.99627
+  0.26881
+-0.038631
+ -0.52255
+ -0.46736
+  -1.3862
+  -0.7997
+  0.26946
+ -0.89222
+ 0.083757
+   -1.406
+ -0.67969
+  -2.0664
+15             1.9044e+00        6.2274e-01
+ 0.71644
+  1.9966
+  2.4607
+  2.7787
+  1.3437
+  2.8182
+  2.4957
+ 0.79401
+-0.21475
+ 0.56481
+ -1.2038
+  1.6142
+ -1.4197
+  1.1719
+ 0.23155
+ 0.65647
+ -2.2721
+ 0.57957
+  1.5058
+ 0.66776
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
+plot(relE)
+hilbTest
+n             Relative Error        Relative residual
+ 
+5             1.6684e+00        1.5641e-01
+10             1.9727e+00        2.5828e-01
+15             1.9044e+00        6.2274e-01
+20             1.8522e+00        7.8333e-01
+Error is increasing with n, while residual is decreasing, indicating
+small residual does not necessarily correspond to small error.
+If the problem was well conditioned however, small residual
+would be likely to correspond to small error
